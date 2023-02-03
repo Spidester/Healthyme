@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mini_Project</string>
+    <string name="healthyme">\@HealthyMe</string>
+    <string name="your_own_health_manager">Your Own Health Manager</string>
+    <string name="you_think_managing_your_health_and_fitness_is_tough">You think managing your health and fitness is tough,</string>
+    <string name="not_anymore">NOT ANYMORE</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="first_time">First Time?</string>
+    <string name="previous_user">Previous User?</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in2">LOG IN</string>
+    <string name="enter_email">enter email</string>
+    <string name="enter_password">enter password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="please_register">Please Register</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="email2">Email</string>
+    <string name="password2">Password</string>
+    <string name="enter_name">enter name</string>
+    <string name="enter_age">enter age</string>
+    <string name="enter_gender">enter gender</string>
+    <string name="enter_email2">enter email</string>
+    <string name="enter_password2">enter password</string>
+    <string name="sign_in2">SIGN IN</string>
+</resources>
