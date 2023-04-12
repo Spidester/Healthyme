@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lsugar_activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="194dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#1C4A46"
+            android:contextClickable="false"
+            android:elegantTextHeight="true"
+            android:text="@string/healthyme"
+            android:textAlignment="center"
+            android:textColor="#B388FF"
+            android:textColorHighlight="#2196F3"
+            android:textColorHint="#3F51B5"
+            android:textCursorDrawable="@android:drawable/btn_star_big_on"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            tools:ignore="InefficientWeight,TextSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="325dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/your_blood_sugar_level_is_low_and_you_ahould_consider_consulting_a_doctor"
+        android:textAlignment="center"
+        android:textColor="#0ED8C5"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
