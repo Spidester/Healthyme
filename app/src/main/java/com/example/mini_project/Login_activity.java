@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Login_activity extends AppCompatActivity {
@@ -59,7 +57,7 @@ public class Login_activity extends AppCompatActivity {
                 Intent intent2 = new Intent(getApplicationContext(), HomePage_activity.class);
                 startActivity(intent2);
             }
-            else{
+            else if(mAuth.getCurrentUser() == null){
                 mAuth.signInWithEmailAndPassword(enter_email.getText().toString(), enter_pass.getText().toString())
 
                         .addOnCompleteListener(this, task -> {

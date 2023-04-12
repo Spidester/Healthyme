@@ -12,6 +12,34 @@
         android:theme="@style/Theme.Mini_Project"
         tools:targetApi="31">
         <activity
+            android:name=".Lsugar_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Hsugar_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Lpress_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Hpress_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Physical2_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Physical_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Profile_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
             android:name=".HomePage_activity"
             android:exported="false" />
         <activity

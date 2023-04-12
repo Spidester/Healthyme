@@ -1,30 +1,98 @@
-<resources>
-    <string name="app_name">Mini_Project</string>
-    <string name="healthyme">\@HealthyMe</string>
-    <string name="your_own_health_manager">Your Own Health Manager</string>
-    <string name="you_think_managing_your_health_and_fitness_is_tough">You think managing your health and fitness is tough,</string>
-    <string name="not_anymore">NOT ANYMORE</string>
-    <string name="log_in">LOG IN</string>
-    <string name="sign_in">SIGN IN</string>
-    <string name="first_time">First Time?</string>
-    <string name="previous_user">Previous User?</string>
-    <string name="todo">TODO</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="log_in2">LOG IN</string>
-    <string name="enter_email">enter email</string>
-    <string name="enter_password">enter password</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="please_register">Please Register</string>
-    <string name="name">Name</string>
-    <string name="gender">Gender</string>
-    <string name="age">Age</string>
-    <string name="email2">Email</string>
-    <string name="password2">Password</string>
-    <string name="enter_name">enter name</string>
-    <string name="enter_age">enter age</string>
-    <string name="enter_gender">enter gender</string>
-    <string name="enter_email2">enter email</string>
-    <string name="enter_password2">enter password</string>
-    <string name="sign_in2">SIGN IN</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">Mini_Project</string>
+    <string name="healthyme" translatable="false">\@HealthyMe</string>
+    <string name="your_own_health_manager" translatable="false">Your Own Health Manager</string>
+    <string name="you_think_managing_your_health_and_fitness_is_tough" translatable="false">You think managing your health and fitness is tough,</string>
+    <string name="not_anymore" translatable="false">NOT ANYMORE</string>
+    <string name="log_in" translatable="false">LOG IN</string>
+    <string name="sign_in" translatable="false">SIGN IN</string>
+    <string name="first_time" translatable="false">First Time?</string>
+    <string name="previous_user" translatable="false">Previous User?</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="log_in2" translatable="false">LOG IN</string>
+    <string name="enter_email" translatable="false">enter email</string>
+    <string name="enter_password" translatable="false">enter password</string>
+    <string name="welcome_back" translatable="false">Welcome Back</string>
+    <string name="please_register" translatable="false">Please Register</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="gender" translatable="false">Gender</string>
+    <string name="age" translatable="false">Age</string>
+    <string name="email2" translatable="false">Email</string>
+    <string name="password2" translatable="false">Password</string>
+    <string name="enter_name" translatable="false">enter name</string>
+    <string name="enter_age" translatable="false">enter age</string>
+    <string name="enter_gender" translatable="false">enter gender</string>
+    <string name="enter_email2" translatable="false">enter email</string>
+    <string name="enter_password2" translatable="false">enter password</string>
+    <string name="sign_in2" translatable="false">SIGN IN</string>
+    <string name="todo2" translatable="false">TODO</string>
+    <string name="height" translatable="false">Height</string>
+    <string name="weight" translatable="false">Weight</string>
+    <string name="bmi" translatable="false">BMI</string>
+    <string name="home_remedies" translatable="false">HOME REMEDIES</string>
+    <string name="bmi_calculator" translatable="false">BMI Calculator</string>
+    <string name="physical_health" translatable="false">PHYSICAL HEALTH</string>
+    <string name="mental_health" translatable="false">MENTAL HEALTH</string>
+    <string name="elderly_people" translatable="false">ELDERLY PEOPLE</string>
+    <string name="height2" translatable="false">Height</string>
+    <string name="enter_height" translatable="false">enter height</string>
+    <string name="enter_weight" translatable="false">enter weight</string>
+    <string name="weight2" translatable="false">Weight</string>
+    <string name="p" translatable="false">P</string>
+    <string name="enter_password_min_7" translatable="false">enter password (min 7)</string>
+    <string name="enter_height_in_cm" translatable="false">enter height in cm</string>
+    <string name="enter_weight_in_kg" translatable="false">enter weight in kg</string>
+    <string name="sign_up" translatable="false">SIGN UP</string>
+    <string name="sign_up2" translatable="false">SIGN UP</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="textview2" translatable="false">TextView</string>
+    <string name="textview3" translatable="false">TextView</string>
+    <string name="textview4" translatable="false">TextView</string>
+    <string name="name2" translatable="false">NAME</string>
+    <string name="age2" translatable="false">AGE</string>
+    <string name="gender2" translatable="false">GENDER</string>
+    <string name="email3" translatable="false">EMAIL</string>
+    <string name="enter_gender_all_caps" translatable="false">enter gender (all CAPS)</string>
+    <string name="update" translatable="false">Update</string>
+    <string name="show" translatable="false">Show</string>
+    <string name="bmr" translatable="false">BMR</string>
+    <string name="height3" translatable="false">HEIGHT</string>
+    <string name="weight3" translatable="false">WEIGHT</string>
+    <string name="your_profile" translatable="false">Your Profile</string>
+    <string name="physical_health2" translatable="false">Physical Health</string>
+    <string name="enter_your_activity_level_sedentary_low_active_very" translatable="false">Enter your activity level (sedentary, low, active, very)</string>
+    <string name="enter_your_average_amount_of_water_intake_in_one_day" translatable="false">Enter your average amount of water intake in one day</string>
+    <string name="enter_any_allergies_or_food_exceptions_to_avoid" translatable="false">Enter any allergies or food exceptions to avoid</string>
+    <string name="enter" translatable="false">enter</string>
+    <string name="enter_in_litres" translatable="false">enter (in Litres)</string>
+    <string name="enter2" translatable="false">enter</string>
+    <string name="go" translatable="false">GO</string>
+    <string name="breakfast" translatable="false">Breakfast</string>
+    <string name="snacks" translatable="false">Snacks</string>
+    <string name="lunch" translatable="false">Lunch</string>
+    <string name="dinner" translatable="false">Dinner</string>
+    <string name="calorie_intake" translatable="false">Calorie Intake</string>
+    <string name="textview5" translatable="false">TextView</string>
+    <string name="textview6" translatable="false">TextView</string>
+    <string name="textview7" translatable="false">TextView</string>
+    <string name="textview8" translatable="false">TextView</string>
+    <string name="textview9" translatable="false">TextView</string>
+    <string name="show_diet_plan" translatable="false">Show Diet Plan</string>
+    <string name="Textview" translatable="false">TextView</string>
+    <string name="Textview2" translatable="false">TextView</string>
+    <string name="Textview3" translatable="false">TextView</string>
+    <string name="Textview4" translatable="false">TextView</string>
+    <string name="Textview5" translatable="false">TextView</string>
+    <string name="dob" translatable="false">DOB</string>
+    <string name="dd_mm_yyyy" translatable="false">DD/MM/YYYY</string>
+    <string name="enter_your_blood_sugar_level" translatable="false">Enter your blood sugar level</string>
+    <string name="enter_your_blood_pressure_level" translatable="false">Enter your blood pressure level</string>
+    <string name="enter_in_mg_dl" translatable="false">enter in mg/dL</string>
+    <string name="enter_in_mmhg" translatable="false">enter in mmHg</string>
+    <string name="your_blood_pressure_is_high_and_you_should_consider_consulting_a_doctor" translatable="false">Your Blood Pressure is high and you should consider consulting a doctor.</string>
+    <string name="your_blood_pressure_is_low_and_you_should_consider_consulting_a_doctor" translatable="false">Your Blood Pressure is low and you should consider consulting a doctor.</string>
+    <string name="your_blood_sugar_level_is_high_and_you_should_consider_consulting_a_doctor" translatable="false">Your Blood Sugar level is high and you should consider consulting a doctor.</string>
+    <string name="your_blood_sugar_level_is_low_and_you_ahould_consider_consulting_a_doctor" translatable="false">Your Blood Sugar level is low and you ahould consider consulting a doctor.</string>
 </resources>
