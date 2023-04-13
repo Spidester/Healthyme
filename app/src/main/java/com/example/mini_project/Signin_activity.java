@@ -96,7 +96,7 @@ public class Signin_activity extends AppCompatActivity {
             if(flag==1 && flag2==1 && flag3==1) {
                 mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this, task ->
                                 mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(this, task2 -> {
-                                    FirebaseUser user = mAuth.getInstance().getCurrentUser();
+                                    FirebaseUser user =  mAuth.getInstance().getCurrentUser();
                                     if (task.isSuccessful()) {
                                             Toast.makeText(getApplicationContext(), "User Already exists, Please Login", Toast.LENGTH_SHORT).show();
                                     } else {

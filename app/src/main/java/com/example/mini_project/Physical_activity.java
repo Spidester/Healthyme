@@ -3,6 +3,7 @@ package com.example.mini_project;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class Physical_activity extends AppCompatActivity {
     String activity;
     Double tdee, sugar, press;
     ActivityPhysicalBinding binding;
+    Button btnInput;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -30,6 +32,12 @@ public class Physical_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityPhysicalBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        btnInput = findViewById(R.id.button3);
+        btnInput.setOnClickListener(view -> {
+            Intent intent3 = new Intent(getApplicationContext(), Profile_activity.class);
+            startActivity(intent3);
+        });
 
         String phy= "done";
         String a = "sedentary";

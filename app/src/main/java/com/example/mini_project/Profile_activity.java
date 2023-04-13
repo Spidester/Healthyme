@@ -1,5 +1,6 @@
 package com.example.mini_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -46,7 +47,10 @@ public class Profile_activity extends AppCompatActivity {
                 }
             });
         });
-
+        binding.btn2.setOnClickListener(view -> {
+            Intent intent8 = new Intent(getApplicationContext(), Update_activity.class);
+            startActivity(intent8);
+        });
 
     }
 }

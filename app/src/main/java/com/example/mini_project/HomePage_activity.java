@@ -34,7 +34,12 @@ public class HomePage_activity extends AppCompatActivity {
             Intent intent3 = new Intent(getApplicationContext(), Profile_activity.class);
             startActivity(intent3);
         });
-        binding.button5.setOnClickListener(view -> {
+        btnInput = findViewById(R.id.button5);
+        btnInput.setOnClickListener(view -> {
+            Intent intent10 = new Intent(getApplicationContext(), Nuskhe_activity.class);
+            startActivity(intent10);
+        });
+        binding.button4.setOnClickListener(view -> {
             reference = FirebaseDatabase.getInstance().getReference("users");
             String id = null;
             if (FirebaseAuth.getInstance().getCurrentUser() == null) {

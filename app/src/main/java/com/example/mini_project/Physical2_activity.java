@@ -1,7 +1,9 @@
 package com.example.mini_project;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -23,12 +25,19 @@ public class Physical2_activity extends AppCompatActivity {
     RelativeLayout relativeLayout;
     ActivityPhysical2Binding binding;
     String day;
+    Button btnInput;
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityPhysical2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        btnInput = findViewById(R.id.button3);
+        btnInput.setOnClickListener(view -> {
+            Intent intent3 = new Intent(getApplicationContext(), Profile_activity.class);
+            startActivity(intent3);
+        });
 
         relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
         relativeLayout.setVisibility(relativeLayout.INVISIBLE);

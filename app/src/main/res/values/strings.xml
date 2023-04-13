@@ -95,4 +95,8 @@
     <string name="your_blood_pressure_is_low_and_you_should_consider_consulting_a_doctor" translatable="false">Your Blood Pressure is low and you should consider consulting a doctor.</string>
     <string name="your_blood_sugar_level_is_high_and_you_should_consider_consulting_a_doctor" translatable="false">Your Blood Sugar level is high and you should consider consulting a doctor.</string>
     <string name="your_blood_sugar_level_is_low_and_you_ahould_consider_consulting_a_doctor" translatable="false">Your Blood Sugar level is low and you ahould consider consulting a doctor.</string>
+    <string name="update_your_profile" translatable="false">Update Your Profile</string>
+    <string name="update2" translatable="false">Update</string>
+    <string name="nani_ke_nuskhe" translatable="false">Nani ke nuskhe</string>
+    <string name="nani_ke_nuskhe2" translatable="false">Nani ke Nuskhe</string>
 </resources>
