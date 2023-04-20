@@ -9,14 +9,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mini_project.databinding.ActivityUpdateBinding;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class Update_activity extends AppCompatActivity {
     ActivityUpdateBinding binding;
+    FirebaseAuth mAuth;
     DatabaseReference databaseReference;
+    double bmr2;
+    String bmi, age1, name, height, weight, age;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +30,13 @@ public class Update_activity extends AppCompatActivity {
 
         binding.button11.setOnClickListener(view -> {
 
-            String name = binding.enterName2.getText().toString();
-            String age1 = binding.enterAge2.getText().toString();
-            String height = binding.enterHeight2.getText().toString();
-            String weight = binding.enterWeight2.getText().toString();
+            name = binding.enterName2.getText().toString();
+            age1 = binding.enterAge2.getText().toString();
+            height = binding.enterHeight2.getText().toString();
+            weight = binding.enterWeight2.getText().toString();
+            String a = "MALE";
+            String b = "FEMALE";
             int n=10;
-            String age;
             if (n > 4) {
                 age = age1.substring(n - 4);
             } else {
@@ -54,6 +60,31 @@ public class Update_activity extends AppCompatActivity {
             else{
                 id3 = FirebaseAuth.getInstance().getCurrentUser().getUid();
             }
+
+            databaseReference.child(id3).get().addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    DataSnapshot dataSnapshot2 = task.getResult();
+                    String gen = String.valueOf(dataSnapshot2.child("Gender").getValue());
+                    double age3 = Double.parseDouble(age);
+                    double height2 = Double.parseDouble(height);
+                    double weight2 = Double.parseDouble(weight);
+                    double bmi2 = weight2 / (height2 / 100 * height2 / 100);
+                    bmi = String.valueOf(bmi2);
+                    if(Objects.equals(gen, a)) {
+                        bmr2 = 66 + (13.7 * weight2) + (5 * height2) - (6.8 * age3);
+                    }
+                    else if(Objects.equals(gen, b)) {
+                        bmr2 = 655 + (9.6 * weight2) + (1.8 * height2) - (4.7 *age3);
+                    }
+
+                    mAuth = FirebaseAuth.getInstance();
+                    databaseReference = FirebaseDatabase.getInstance().getReference();
+                    databaseReference.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("BMI").setValue(bmi);
+                    databaseReference = FirebaseDatabase.getInstance().getReference();
+                    databaseReference.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("BMR").setValue(bmr2);
+                }
+            });
+
             databaseReference.child(id3).updateChildren(user).addOnCompleteListener(task -> {
                 if(task.isSuccessful()){
 

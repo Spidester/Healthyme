@@ -12,11 +12,29 @@
         android:theme="@style/Theme.Mini_Project"
         tools:targetApi="31">
         <activity
+            android:name=".Mental4_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Mental3_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Mental2_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Mental_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
             android:name=".Nuskhe_activity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
         <activity
             android:name=".Update_activity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Profile_activity" />
         <activity
             android:name=".Lsugar_activity"
             android:exported="false"

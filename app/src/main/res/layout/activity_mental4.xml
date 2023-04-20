@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Physical_activity">
+    tools:context=".Mental4_activity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -47,12 +47,12 @@
             android:layout_width="70dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo_project"
-            android:contentDescription="@string/todo2"
             tools:ignore="ContentDescription,VisualLintBounds" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -77,22 +77,11 @@
             tools:ignore="TouchTargetSizeCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="421dp"
-        android:layout_height="24dp"
-        android:background="#1C4A46"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:ignore="VisualLintBounds">
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="406dp"
         android:layout_height="53dp"
-        android:text="@string/physical_health2"
+        android:text="@string/mental_health2"
         android:textAlignment="center"
         android:textColor="#43A047"
         android:textSize="38sp"
@@ -100,111 +89,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="373dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/enter_your_activity_level_sedentary_low_active_very"
+        android:id="@+id/textView79"
+        android:layout_width="412dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="96dp"
+        android:background="#4CAF50"
+        android:text="@string/do_you_wish_to_take_the_test_again"
         android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textColor="#FDFCFC"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="TextContrastCheck,TextSizeCheck,VisualLintBounds" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="370dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="24dp"
-        android:text="@string/enter_your_blood_sugar_level"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout21"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout8"
-        app:layout_constraintVertical_bias="0.059"
-        tools:ignore="TextSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="371dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="136dp"
-        android:text="@string/enter_your_blood_pressure_level"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout9"
-        app:layout_constraintVertical_bias="0.287"
-        tools:ignore="TextSizeCheck" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout8"
-        android:layout_width="373dp"
-        android:layout_height="53dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
-        app:layout_constraintTop_toBottomOf="@+id/textView20">
+        app:layout_constraintTop_toBottomOf="@+id/textView79">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/enter_activity"
+            android:id="@+id/again_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/enter"
-            android:inputType="text"
-            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout9"
-        android:layout_width="370dp"
-        android:layout_height="52dp"
-        app:layout_constraintStart_toStartOf="@+id/textView21"
-        app:layout_constraintTop_toBottomOf="@+id/textView21">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/enter_sugar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/enter_in_mg_dl"
-            tools:ignore="TextContrastCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout10"
-        android:layout_width="367dp"
-        android:layout_height="52dp"
-        app:layout_constraintStart_toStartOf="@+id/textView22"
-        app:layout_constraintTop_toBottomOf="@+id/textView22">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/enter_press"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/enter_in_mmhg"
+            android:autofillHints=""
+            android:hint="@string/y_n"
+            android:inputType="text|textCapCharacters"
             tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:focusableInTouchMode="false"
-        android:text="@string/go"
+        android:text="@string/go2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout10" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout21"
+        app:layout_constraintVertical_bias="0.387" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -60,6 +60,7 @@ public class Signin_activity extends AppCompatActivity {
             String a = "MALE";
             String b = "FEMALE";
             String phy = "none";
+            String men = "none";
             double age2 = Double.parseDouble(age);
             age2 = 2023-age2;
             double height2 = Double.parseDouble(height);
@@ -116,6 +117,8 @@ public class Signin_activity extends AppCompatActivity {
                                             mDatabase.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("BMR").setValue(bmr2);
                                             mDatabase = FirebaseDatabase.getInstance().getReference();
                                             mDatabase.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("Phy").setValue(phy);
+                                            mDatabase = FirebaseDatabase.getInstance().getReference();
+                                            mDatabase.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("Men").setValue(men);
 
                                             Intent intent2 = new Intent(getApplicationContext(), Login_activity.class);
                                             startActivity(intent2);

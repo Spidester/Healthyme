@@ -67,7 +67,7 @@ public class Physical_activity extends AppCompatActivity {
                         DataSnapshot dataSnapshot2 = task.getResult();
                         Double bmr2 = (Double) dataSnapshot2.child("BMR").getValue();
 
-                        if (press > 90 && press < 120 && sugar < 100 && sugar > 70) {
+                        if (press >= 90 && press <= 120 && sugar <= 100 && sugar >= 70) {
                             if (Objects.equals(activity, a)) {
                                 tdee = (bmr2 * 1.2);
                                 mAuth = FirebaseAuth.getInstance();

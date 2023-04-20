@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="408dp"
-        android:layout_height="84dp"
+        android:layout_width="407dp"
+        android:layout_height="70dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,12 +36,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="406dp"
-        android:layout_height="53dp"
+        android:layout_width="403dp"
+        android:layout_height="39dp"
         android:text="@string/please_register"
         android:textAlignment="center"
         android:textColor="#43A047"
-        android:textSize="38sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
@@ -80,7 +80,7 @@
         android:layout_width="98dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="@string/dob"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -94,7 +94,7 @@
         android:layout_width="98dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="@string/gender"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -108,7 +108,7 @@
         android:layout_width="98dp"
         android:layout_height="46dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="@string/email2"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -122,7 +122,7 @@
         android:layout_width="111dp"
         android:layout_height="41dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="@string/password2"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -150,7 +150,9 @@
         android:layout_width="244dp"
         android:layout_height="46dp"
         app:layout_constraintStart_toEndOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20">
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_name"
@@ -169,7 +171,9 @@
         android:layout_height="48dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout3"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toTopOf="@+id/textView7">
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_age"
@@ -188,7 +192,9 @@
         android:layout_height="45dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout4"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toTopOf="@+id/textView9">
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_gender"
@@ -207,7 +213,9 @@
         android:layout_height="44dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout5"
         app:layout_constraintStart_toEndOf="@+id/textView12"
-        app:layout_constraintTop_toTopOf="@+id/textView12">
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_email"
@@ -226,7 +234,9 @@
         android:layout_height="40dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout6"
         app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toTopOf="@+id/textView13">
+        app:layout_constraintTop_toTopOf="@+id/textView13"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_pass"
@@ -243,8 +253,8 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="@string/sign_up"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -254,7 +264,9 @@
         android:layout_width="244dp"
         android:layout_height="47dp"
         app:layout_constraintStart_toEndOf="@+id/textView21"
-        app:layout_constraintTop_toTopOf="@+id/textView21">
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_height"
@@ -270,7 +282,9 @@
         android:layout_width="243dp"
         android:layout_height="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView22"
-        app:layout_constraintTop_toTopOf="@+id/textView22">
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_weight"

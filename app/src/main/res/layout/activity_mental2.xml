@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Mental2_activity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="261dp"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="194dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#1C4A46"
+                android:contextClickable="false"
+                android:elegantTextHeight="true"
+                android:text="@string/healthyme"
+                android:textAlignment="center"
+                android:textColor="#B388FF"
+                android:textColorHighlight="#2196F3"
+                android:textColorHint="#3F51B5"
+                android:textCursorDrawable="@android:drawable/btn_star_big_on"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:ignore="InefficientWeight,TextSizeCheck" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:background="#1C4A46"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_project"
+                android:contentDescription="@string/todo2"
+                tools:ignore="ContentDescription,VisualLintBounds" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="77dp"
+            android:layout_height="75dp"
+            android:background="#1C4A46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="VisualLintBounds">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="51dp"
+                android:layout_height="45dp"
+                android:text="@string/p"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="421dp"
+            android:layout_height="24dp"
+            android:background="#1C4A46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:ignore="VisualLintBounds">
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="406dp"
+            android:layout_height="53dp"
+            android:text="@string/mental_health2"
+            android:textAlignment="center"
+            android:textColor="#43A047"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="415dp"
+            android:layout_height="92dp"
+            android:background="#C0F3C2"
+            android:text="@string/please_rate_each_item_by_selecting_one_of_the_four_answers_for_each_question_in_a_b_c_d"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="412dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_is_important_not_to_appear_nervous"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout15"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView62">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="412dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_me_when_you_feel_shaky"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout15" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout16"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="412dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/when_can_you_not_keep_your_mind_on_a_task_you_worry_that_you_might_be_going_crazy"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout16" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout17"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView64">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="412dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_me_when_you_feel_faint"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout17" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout18"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_is_important_to_you_to_stay_in_control_of_your_emotions"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout18" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout19"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="414dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/when_you_notice_your_heart_beating_rapidly_you_worry_that_you_might_be_having_a_heart_attack"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout19" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout20"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67"
+            tools:ignore="ExtraText">>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="419dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/when_you_are_nervous_you_get_paranoid_about_being_mentally_ill"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout20" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout22"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView68">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="407dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_you_when_you_are_unable_to_keep_your_mind_on_a_task"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout22" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout23"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="410dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/you_get_a_feeling_of_being_afraid_as_if_something_bad_might_happen"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout23" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout24"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="410dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/you_get_irritated_and_angry_easily_and_have_trouble_relaxing"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout24" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout25"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView61">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="410dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/you_frequently_worry_too_much_about_different_little_things"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout25" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout26"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="397dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_you_when_you_are_nauseous"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout26" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout27"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="397dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/other_people_notice_you_when_you_feel_shaky"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout27" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout28"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView73">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="397dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/unusual_body_sensations_scare_you"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout28" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout29"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView74">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="397dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_you_when_you_are_nervous"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout29" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout30"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="396dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/it_scares_you_when_you_become_short_of_breath"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout30" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout31"
+            android:layout_width="416dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/a_very_little_b_little_c_much_d_very_much"
+                android:inputType="text|textCapCharacters"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:focusableInTouchMode="false"
+            android:text="@string/go"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout31" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

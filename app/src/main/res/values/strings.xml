@@ -99,4 +99,76 @@
     <string name="update2" translatable="false">Update</string>
     <string name="nani_ke_nuskhe" translatable="false">Nani ke nuskhe</string>
     <string name="nani_ke_nuskhe2" translatable="false">Nani ke Nuskhe</string>
+    <string name="textview30" translatable="false">TextView</string>
+    <string name="textview31" translatable="false">TextView</string>
+    <string name="textview32" translatable="false">TextView</string>
+    <string name="textview33" translatable="false">TextView</string>
+    <string name="test1" translatable="false">test1</string>
+    <string name="out1" translatable="false">out1</string>
+    <string name="out2" translatable="false">out2</string>
+    <string name="test3" translatable="false">test3</string>
+    <string name="test4" translatable="false">test4</string>
+    <string name="test5" translatable="false">test5</string>
+    <string name="test2" translatable="false">test2</string>
+    <string name="out3" translatable="false">out3</string>
+    <string name="out4" translatable="false">out4</string>
+    <string name="out5" translatable="false">out5</string>
+    <string name="test6" translatable="false">test6</string>
+    <string name="test7" translatable="false">test7</string>
+    <string name="test8" translatable="false">test8</string>
+    <string name="test9" translatable="false">test9</string>
+    <string name="nausea" translatable="false">nausea</string>
+    <string name="ginger_1_2_inches" translatable="false">ginger (1-2 inches)</string>
+    <string name="hydrate_yourself_and_ginger_1_2_inches" translatable="false">hydrate yourself and ginger (1-2 inches)</string>
+    <string name="menstrual_cramps" translatable="false">menstrual cramps</string>
+    <string name="inflammation" translatable="false">inflammation</string>
+    <string name="cholesterol" translatable="false">cholesterol</string>
+    <string name="headaches" translatable="false">headaches</string>
+    <string name="cumin_seeds_exercise_and_ginger_1_2_inches" translatable="false">cumin seeds, exercise and ginger (1-2 inches)</string>
+    <string name="turmeric_1_2_teaspoon" translatable="false">turmeric (1/2 teaspoon)</string>
+    <string name="garlic_2_3_cloves" translatable="false">garlic (2-3 cloves)</string>
+    <string name="pain" translatable="false">pain</string>
+    <string name="digestion" translatable="false">digestion</string>
+    <string name="insomnia" translatable="false">insomnia</string>
+    <string name="sore_throat" translatable="false">sore throat</string>
+    <string name="stomach_ache" translatable="false">stomach ache</string>
+    <string name="cloves_2_3" translatable="false">cloves (2-3)</string>
+    <string name="cumin_1_teaspoon" translatable="false">cumin (1 teaspoon)</string>
+    <string name="reduce_tea_coffee_and_take_cumin_1_teaspoon" translatable="false">reduce tea/ coffee and take cumin (1 teaspoon)</string>
+    <string name="honey_1_tablespoon" translatable="false">honey (1 tablespoon)</string>
+    <string name="cardamom_1_2_teaspoon" translatable="false">cardamom (1/2 teaspoon)</string>
+    <string name="intake" translatable="false">Intake</string>
+    <string name="mental_health2" translatable="false">Mental Health</string>
+    <string name="a_never_b_some_days_c_half_days_d_everyday" translatable="false">(A)Never, (B)Some days, (C)Half days, (D)Everyday</string>
+    <string name="over_the_last_2_weeks_how_often_have_you_been_bothered_by_any_of_the_following_problems_enter_in_a_b_c_d" translatable="false">Over the last 2 weeks, how often have you been bothered by any of the following problems? (Enter in A,B,C,D)</string>
+    <string name="little_interest_or_pleasure_in_doing_things" translatable="false">Little interest or pleasure in doing things</string>
+    <string name="feeling_down_depressed_or_hopeless" translatable="false">Feeling down, depressed, or hopeless</string>
+    <string name="trouble_falling_or_staying_asleep_or_sleeping_too_much" translatable="false">Trouble falling or staying asleep, or sleeping too much</string>
+    <string name="feeling_tired_or_having_little_energy" translatable="false">Feeling tired or having little energy</string>
+    <string name="poor_appetite_or_overeating" translatable="false">. Poor appetite or overeating</string>
+    <string name="feeling_bad_about_yourself_or_that_you_are_a_failure_or_have_let_yourself_or_anyone_else_down" translatable="false">Feeling bad about yourself or that you are a failure or have let yourself or anyone else down</string>
+    <string name="trouble_concentrating_on_things_such_as_reading_the_newspaper_or_watching_television" translatable="false">Trouble concentrating on things, such as reading the newspaper or watching television</string>
+    <string name="moving_or_speaking_so_slowly_that_other_people_could_have_noticed_or_the_opposite_being_so_figety_or_restless_that_you_have_been_moving_around_a_lot_more_than_usual" translatable="false">Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual</string>
+    <string name="thoughts_that_you_would_be_better_off_dead_or_of_hurting_yourself" translatable="false">Thoughts that you would be better off dead, or of hurting yourself</string>
+    <string name="a_very_little_b_little_c_much_d_very_much" translatable="false">(A)Very little, (B)Little, (C)Much, (D)Very much</string>
+    <string name="please_rate_each_item_by_selecting_one_of_the_four_answers_for_each_question_in_a_b_c_d" translatable="false">Please rate each item by selecting one of the four answers for each question in (A,B,C,D)</string>
+    <string name="it_is_important_not_to_appear_nervous" translatable="false">It is important not to appear nervous.</string>
+    <string name="it_scares_me_when_you_feel_shaky" translatable="false">It scares me when you feel shaky</string>
+    <string name="when_can_you_not_keep_your_mind_on_a_task_you_worry_that_you_might_be_going_crazy" translatable="false">When can you not keep your mind on a task, you worry that you might be going crazy.</string>
+    <string name="it_scares_me_when_you_feel_faint" translatable="false">It scares me when you feel faint</string>
+    <string name="it_is_important_to_you_to_stay_in_control_of_your_emotions" translatable="false">It is important to you to stay in control of your emotions</string>
+    <string name="when_you_notice_your_heart_beating_rapidly_you_worry_that_you_might_be_having_a_heart_attack" translatable="false">When you notice your heart beating rapidly, you worry that you might be having a heart attack</string>
+    <string name="when_you_are_nervous_you_get_paranoid_about_being_mentally_ill" translatable="false">When you are nervous, you get paranoid about being mentally ill</string>
+    <string name="it_scares_you_when_you_are_unable_to_keep_your_mind_on_a_task" translatable="false">It scares you when you are unable to keep your mind on a task</string>
+    <string name="you_get_a_feeling_of_being_afraid_as_if_something_bad_might_happen" translatable="false">You get a feeling of being afraid, as if something bad might happen</string>
+    <string name="you_get_irritated_and_angry_easily_and_have_trouble_relaxing" translatable="false">You get irritated and angry easily and have trouble relaxing</string>
+    <string name="you_frequently_worry_too_much_about_different_little_things" translatable="false">You frequently worry too much about different little things</string>
+    <string name="it_scares_you_when_you_are_nauseous" translatable="false">It scares you when you are nauseous</string>
+    <string name="other_people_notice_you_when_you_feel_shaky" translatable="false">Other people notice you when you feel shaky</string>
+    <string name="unusual_body_sensations_scare_you" translatable="false">Unusual body sensations scare you</string>
+    <string name="it_scares_you_when_you_are_nervous" translatable="false">It scares you when you are nervous</string>
+    <string name="it_scares_you_when_you_become_short_of_breath" translatable="false">It scares you when you become short of breath</string>
+    <string name="do_you_wish_to_take_the_test_again" translatable="false">Do you wish to take the test again?</string>
+    <string name="y_n" translatable="false">(Y/N)</string>
+    <string name="go2" translatable="false">Go</string>
 </resources>

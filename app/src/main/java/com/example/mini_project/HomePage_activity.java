@@ -1,8 +1,14 @@
 package com.example.mini_project;
 
+import static android.content.Intent.ACTION_VIEW;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,9 +22,11 @@ import com.google.firebase.database.FirebaseDatabase;
 public class HomePage_activity extends AppCompatActivity {
 
     Button btnInput;
+    ImageButton imgBtn;
     DatabaseReference reference;
     ActivityHomePageBinding binding;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +42,17 @@ public class HomePage_activity extends AppCompatActivity {
             Intent intent3 = new Intent(getApplicationContext(), Profile_activity.class);
             startActivity(intent3);
         });
-        btnInput = findViewById(R.id.button5);
+        imgBtn = (ImageButton) findViewById(R.id.imageButton2);
+        imgBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url ="https://www.youtube.com/watch?v=xvFZjo5PgG0";
+                Uri uri = Uri.parse(url);
+                Intent launchWeb = new Intent(Intent.ACTION_VIEW,uri);
+                startActivity(launchWeb);
+            }
+        });
+                btnInput = findViewById(R.id.button5);
         btnInput.setOnClickListener(view -> {
             Intent intent10 = new Intent(getApplicationContext(), Nuskhe_activity.class);
             startActivity(intent10);
@@ -64,7 +82,6 @@ public class HomePage_activity extends AppCompatActivity {
 
         btnInput = findViewById(R.id.button8);
         btnInput.setOnClickListener(view -> {
-
             reference = FirebaseDatabase.getInstance().getReference("users");
             String id2 = null;
             if (FirebaseAuth.getInstance().getCurrentUser() == null){
@@ -82,6 +99,31 @@ public class HomePage_activity extends AppCompatActivity {
                     }
                     else if(phy.equals(b)){
                         Intent intent5 = new Intent(getApplicationContext(), Physical2_activity.class);
+                        startActivity(intent5);
+                    }
+                }
+            });
+        });
+
+        btnInput = findViewById(R.id.button9);
+        btnInput.setOnClickListener(view -> {
+            reference = FirebaseDatabase.getInstance().getReference("users");
+            String id2 = null;
+            if (FirebaseAuth.getInstance().getCurrentUser() == null){
+                Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
+            }else {
+                id2 = FirebaseAuth.getInstance().getCurrentUser().getUid();
+            }
+            reference.child(id2).get().addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    DataSnapshot dataSnapshot2 = task.getResult();
+                    String phy = String.valueOf(dataSnapshot2.child("Men").getValue());
+                    if(phy.equals(a)){
+                        Intent intent4 = new Intent(getApplicationContext(), Mental_activity.class);
+                        startActivity(intent4);
+                    }
+                    else if(phy.equals(b)){
+                        Intent intent5 = new Intent(getApplicationContext(), Mental4_activity.class);
                         startActivity(intent5);
                     }
                 }
