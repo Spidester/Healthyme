@@ -2,6 +2,7 @@ package com.example.mini_project;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class Profile_activity extends AppCompatActivity {
-
+    Button btnInput;
     DatabaseReference reference;
     ActivityProfileBinding binding;
 
@@ -51,6 +52,10 @@ public class Profile_activity extends AppCompatActivity {
             Intent intent8 = new Intent(getApplicationContext(), Update_activity.class);
             startActivity(intent8);
         });
-
+        btnInput = findViewById(R.id.button18);
+        btnInput.setOnClickListener(view -> {
+            Intent intent3 = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent3);
+        });
     }
 }

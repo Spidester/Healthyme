@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Mini_Project"
         tools:targetApi="31">
         <activity
+            android:name=".RickRoll_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Jokes_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
+            android:name=".Motivation_activity"
+            android:exported="false"
+            android:parentActivityName=".HomePage_activity" />
+        <activity
             android:name=".Mental4_activity"
             android:exported="false"
             android:parentActivityName=".HomePage_activity" />
@@ -83,6 +95,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

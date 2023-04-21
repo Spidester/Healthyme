@@ -155,18 +155,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="BottomAppBar,VisualLintBottomAppBar" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="63dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
-        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
-        app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
-        app:layout_constraintVertical_bias="0.562"
-        app:srcCompat="@android:drawable/checkbox_off_background"
-        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
-
     <Button
         android:id="@+id/button4"
         android:layout_width="141dp"
@@ -180,18 +168,6 @@
         app:layout_constraintVertical_bias="0.3"
         tools:ignore="TextSizeCheck" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
-        app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
-
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -200,7 +176,8 @@
         android:text="@string/nani_ke_nuskhe"
         app:layout_constraintEnd_toEndOf="@+id/button9"
         app:layout_constraintStart_toStartOf="@+id/button9"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/button8"
@@ -221,6 +198,29 @@
         app:layout_constraintEnd_toEndOf="@+id/button8"
         app:layout_constraintStart_toStartOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="71dp"
+        android:layout_height="53dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/emoji"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

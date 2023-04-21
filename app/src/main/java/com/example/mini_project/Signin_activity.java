@@ -18,7 +18,7 @@ import java.util.Objects;
 public class Signin_activity extends AppCompatActivity {
 
     EditText enter_name, enter_age, enter_gender, enter_email, enter_pass, enter_height, enter_weight;
-    String name, age1, age = "", gender, email, pass, weight, height, bmi, bmr;
+    String name, age1, age = "", gender, email, pass, weight, height, bmi;
     Button btnInput;
     FirebaseAuth mAuth;
     DatabaseReference mDatabase;

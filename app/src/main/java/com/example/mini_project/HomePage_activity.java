@@ -42,17 +42,28 @@ public class HomePage_activity extends AppCompatActivity {
             Intent intent3 = new Intent(getApplicationContext(), Profile_activity.class);
             startActivity(intent3);
         });
-        imgBtn = (ImageButton) findViewById(R.id.imageButton2);
+
+
+
+        imgBtn = (ImageButton) findViewById(R.id.imageButton);
         imgBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url ="https://www.youtube.com/watch?v=xvFZjo5PgG0";
-                Uri uri = Uri.parse(url);
-                Intent launchWeb = new Intent(Intent.ACTION_VIEW,uri);
-                startActivity(launchWeb);
+                Intent intent19 = new Intent(getApplicationContext(), Motivation_activity.class);
+                startActivity(intent19);
             }
         });
-                btnInput = findViewById(R.id.button5);
+
+        imgBtn = (ImageButton) findViewById(R.id.imageButton7);
+        imgBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent19 = new Intent(getApplicationContext(), Jokes_activity.class);
+                startActivity(intent19);
+            }
+        });
+
+        btnInput = findViewById(R.id.button5);
         btnInput.setOnClickListener(view -> {
             Intent intent10 = new Intent(getApplicationContext(), Nuskhe_activity.class);
             startActivity(intent10);

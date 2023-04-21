@@ -22,8 +22,6 @@ public class Login_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Intent intent1 = getIntent();
-
         btnInput = findViewById(R.id.button);
         btnInput.setOnClickListener(view -> {
 
@@ -32,18 +30,6 @@ public class Login_activity extends AppCompatActivity {
 
             editText2 = findViewById(R.id.enter_pass);
             pass = editText2.getText().toString();
-
-            /*if (email.equals("123@mit.com") && pass.equals("0000")) {
-                Toast.makeText(getApplicationContext(), "Login Successful", Toast.LENGTH_SHORT).show();
-                //toast is used to show message when clicking the button
-
-                // Intent intent = new Intent(getApplicationContext(), HomePage.class);
-                //startActivity(intent);
-            }
-            else {
-                Toast.makeText(getApplicationContext(), "Invalid email or password", Toast.LENGTH_SHORT).show();
-                //toast is used to show message when clicking the button
-            }*/
 
             enter_email = findViewById(R.id.enter_email);
             enter_pass = findViewById(R.id.enter_pass);

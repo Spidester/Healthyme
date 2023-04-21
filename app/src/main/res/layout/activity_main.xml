@@ -70,9 +70,9 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/project"
             android:contentDescription="@string/todo"
-            tools:ignore="ContentDescription" />
+            app:srcCompat="@drawable/project"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
     </LinearLayout>
 
     <LinearLayout

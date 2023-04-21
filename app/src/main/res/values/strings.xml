@@ -171,4 +171,12 @@
     <string name="do_you_wish_to_take_the_test_again" translatable="false">Do you wish to take the test again?</string>
     <string name="y_n" translatable="false">(Y/N)</string>
     <string name="go2" translatable="false">Go</string>
+    <string name="here_are_some_jokes_and_light_hearted_humour_to_keep_up_your_mood">Here are some jokes and light-hearted humour to keep up your mood...</string>
+    <string name="more">MORE</string>
+    <string name="here_are_some_motivational_quotes_to_help_you_keep_going">Here are some motivational quotes to help you keep going...</string>
+    <string name="you_ve_entered_the_forbidden_section_of_the_app_that_not_all_can_find_so_i_the_creator_of_this_app_ask_you_this">You\'ve entered the forbidden section of the app that not all can find. So I the creator of this app ask you this-</string>
+    <string name="do_you_ponder_on_the_question_what_is_the_true_meaning_and_purpose_of_life_do_you_have_enough_curiosity_and_might_to_want_the_answer_despite_the_dire_consequences_if_yes_then_proceed_but_beaware_that_this_path_leads_to_a_very_dark_place_from_which_none_have_returned">Do you ponder on the question, what is the true meaning and purpose of life? Do you have enough curiosity and might to want the answer despite the dire consequences? If yes then proceed but beaware that this path leads to a very dark place from which none have returned . . . .</string>
+    <string name="go_back">Go Back</string>
+    <string name="logout">Logout</string>
+    <string name="button">Button</string>
 </resources>
