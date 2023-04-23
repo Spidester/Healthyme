@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="408dp"
+        android:layout_width="390dp"
         android:layout_height="84dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
+        android:layout_width="390dp"
         android:layout_height="39dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +100,9 @@
         android:layout_width="257dp"
         android:layout_height="46dp"
         app:layout_constraintStart_toEndOf="@+id/textView20"
-        app:layout_constraintTop_toTopOf="@+id/textView20">
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <EditText
             android:id="@+id/enter_email"
@@ -120,7 +122,10 @@
         android:layout_marginStart="1dp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
         app:layout_constraintStart_toEndOf="@+id/textView21"
-        app:layout_constraintTop_toTopOf="@+id/textView21">
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:hintEnabled="false">
 
         <EditText
             android:id="@+id/enter_pass"
@@ -135,10 +140,10 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="403dp"
+        android:layout_width="390dp"
         android:layout_height="81dp"
         android:text="@string/welcome_back"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textColor="#43A047"
         android:textSize="48sp"
         android:textStyle="bold"

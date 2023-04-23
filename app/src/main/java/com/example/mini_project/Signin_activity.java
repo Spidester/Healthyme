@@ -30,7 +30,6 @@ public class Signin_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
-        Intent intent1 = getIntent();
 
         btnInput = findViewById(R.id.button2);
         btnInput.setOnClickListener(view -> {
@@ -97,7 +96,7 @@ public class Signin_activity extends AppCompatActivity {
             if(flag==1 && flag2==1 && flag3==1) {
                 mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this, task ->
                                 mAuth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener(this, task2 -> {
-                                    FirebaseUser user =  mAuth.getInstance().getCurrentUser();
+                                    FirebaseUser user =  FirebaseAuth.getInstance().getCurrentUser();
                                     if (task.isSuccessful()) {
                                             Toast.makeText(getApplicationContext(), "User Already exists, Please Login", Toast.LENGTH_SHORT).show();
                                     } else {
@@ -119,6 +118,7 @@ public class Signin_activity extends AppCompatActivity {
                                             mDatabase.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("Phy").setValue(phy);
                                             mDatabase = FirebaseDatabase.getInstance().getReference();
                                             mDatabase.child("users").child(Objects.requireNonNull(mAuth.getUid())).child("Men").setValue(men);
+                                            mDatabase = FirebaseDatabase.getInstance().getReference();
 
                                             Intent intent2 = new Intent(getApplicationContext(), Login_activity.class);
                                             startActivity(intent2);

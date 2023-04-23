@@ -24,7 +24,6 @@ public class Profile_activity extends AppCompatActivity {
         binding = ActivityProfileBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.btn1.setOnClickListener(view -> {
             reference = FirebaseDatabase.getInstance().getReference("users");
             String id = null;
             if (FirebaseAuth.getInstance().getCurrentUser() == null) {
@@ -32,7 +31,8 @@ public class Profile_activity extends AppCompatActivity {
             } else {
                 id = FirebaseAuth.getInstance().getCurrentUser().getUid();
             }
-            reference.child(id).get().addOnCompleteListener(task -> {
+        assert id != null;
+        reference.child(id).get().addOnCompleteListener(task -> {
                 if (task.isSuccessful()) {
                     DataSnapshot dataSnapshot = task.getResult();
                     String name = String.valueOf(dataSnapshot.child("Name").getValue());
@@ -47,7 +47,7 @@ public class Profile_activity extends AppCompatActivity {
                     binding.textView25.setText(weight);
                 }
             });
-        });
+
         binding.btn2.setOnClickListener(view -> {
             Intent intent8 = new Intent(getApplicationContext(), Update_activity.class);
             startActivity(intent8);

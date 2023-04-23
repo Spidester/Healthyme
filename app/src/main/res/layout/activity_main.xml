@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="408dp"
+        android:layout_width="390dp"
         android:layout_height="84dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,7 +17,7 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="0dp"
+            android:layout_width="387dp"
             android:layout_height="84dp"
             android:layout_weight="1"
             android:background="#1C4A46"
@@ -31,12 +31,12 @@
             android:textCursorDrawable="@android:drawable/btn_star_big_on"
             android:textSize="50sp"
             android:textStyle="bold|italic"
-            tools:ignore="TextSizeCheck" />
+            tools:ignore="InefficientWeight,TextSizeCheck" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
+        android:layout_width="390dp"
         android:layout_height="39dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="match_parent"
+            android:layout_width="390dp"
             android:layout_height="match_parent"
             android:background="#1F4C48"
             android:text="@string/your_own_health_manager"
@@ -76,7 +76,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="194dp"
+        android:layout_width="177dp"
         android:layout_height="180dp"
         android:background="#4CAF50"
         android:orientation="vertical"
@@ -86,24 +86,25 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="match_parent"
+            android:layout_width="180dp"
             android:layout_height="109dp"
             android:text="@string/you_think_managing_your_health_and_fitness_is_tough"
             android:textAlignment="center"
             android:textColor="#153C39"
             android:textSize="22sp"
             android:textStyle="bold"
-            tools:ignore="TextSizeCheck" />
+            tools:ignore="TextSizeCheck,VisualLintBounds" />
 
         <TextView
             android:id="@+id/textView8"
-            android:layout_width="match_parent"
+            android:layout_width="180dp"
             android:layout_height="71dp"
             android:text="@string/not_anymore"
             android:textAlignment="center"
             android:textColor="#153C39"
-            android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck,VisualLintBounds" />
     </LinearLayout>
 
     <Button
@@ -143,15 +144,17 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="87dp"
-        android:layout_height="67dp"
+        android:layout_width="107dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/previous_user"
         android:textAlignment="center"
         android:textColor="#153C39"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

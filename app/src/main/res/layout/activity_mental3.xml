@@ -57,7 +57,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="77dp"
+        android:layout_width="70dp"
         android:layout_height="75dp"
         android:background="#1C4A46"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="406dp"
+        android:layout_width="390dp"
         android:layout_height="53dp"
         android:text="@string/mental_health2"
         android:textAlignment="center"

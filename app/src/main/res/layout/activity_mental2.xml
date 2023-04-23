@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="409dp"
+    android:layout_width="390dp"
     android:layout_height="729dp"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="77dp"
+            android:layout_width="70dp"
             android:layout_height="75dp"
             android:background="#1C4A46"
             app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +98,7 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="406dp"
+            android:layout_width="390dp"
             android:layout_height="53dp"
             android:text="@string/mental_health2"
             android:textAlignment="center"
@@ -113,7 +113,7 @@
 
         <TextView
             android:id="@+id/textView60"
-            android:layout_width="415dp"
+            android:layout_width="390dp"
             android:layout_height="92dp"
             android:background="#C0F3C2"
             android:text="@string/please_rate_each_item_by_selecting_one_of_the_four_answers_for_each_question_in_a_b_c_d"
@@ -125,7 +125,7 @@
 
         <TextView
             android:id="@+id/textView62"
-            android:layout_width="412dp"
+            android:layout_width="390dp"
             android:layout_height="35dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_is_important_not_to_appear_nervous"
@@ -138,7 +138,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout15"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -156,7 +156,7 @@
 
         <TextView
             android:id="@+id/textView63"
-            android:layout_width="412dp"
+            android:layout_width="390dp"
             android:layout_height="35dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_me_when_you_feel_shaky"
@@ -168,7 +168,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout16"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -186,7 +186,7 @@
 
         <TextView
             android:id="@+id/textView64"
-            android:layout_width="412dp"
+            android:layout_width="390dp"
             android:layout_height="54dp"
             android:layout_marginTop="16dp"
             android:text="@string/when_can_you_not_keep_your_mind_on_a_task_you_worry_that_you_might_be_going_crazy"
@@ -198,7 +198,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout17"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -216,7 +216,7 @@
 
         <TextView
             android:id="@+id/textView65"
-            android:layout_width="412dp"
+            android:layout_width="390dp"
             android:layout_height="35dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_me_when_you_feel_faint"
@@ -228,7 +228,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout18"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -246,7 +246,7 @@
 
         <TextView
             android:id="@+id/textView66"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_is_important_to_you_to_stay_in_control_of_your_emotions"
@@ -258,7 +258,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout19"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -276,7 +276,7 @@
 
         <TextView
             android:id="@+id/textView67"
-            android:layout_width="414dp"
+            android:layout_width="390dp"
             android:layout_height="72dp"
             android:layout_marginTop="16dp"
             android:text="@string/when_you_notice_your_heart_beating_rapidly_you_worry_that_you_might_be_having_a_heart_attack"
@@ -288,7 +288,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout20"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -307,7 +307,7 @@
 
         <TextView
             android:id="@+id/textView68"
-            android:layout_width="419dp"
+            android:layout_width="390dp"
             android:layout_height="55dp"
             android:layout_marginTop="16dp"
             android:text="@string/when_you_are_nervous_you_get_paranoid_about_being_mentally_ill"
@@ -319,7 +319,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout22"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -337,7 +337,7 @@
 
         <TextView
             android:id="@+id/textView69"
-            android:layout_width="407dp"
+            android:layout_width="390dp"
             android:layout_height="61dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_you_when_you_are_unable_to_keep_your_mind_on_a_task"
@@ -349,7 +349,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout23"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -367,7 +367,7 @@
 
         <TextView
             android:id="@+id/textView70"
-            android:layout_width="410dp"
+            android:layout_width="390dp"
             android:layout_height="56dp"
             android:layout_marginTop="16dp"
             android:text="@string/you_get_a_feeling_of_being_afraid_as_if_something_bad_might_happen"
@@ -379,7 +379,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout24"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -397,7 +397,7 @@
 
         <TextView
             android:id="@+id/textView61"
-            android:layout_width="410dp"
+            android:layout_width="390dp"
             android:layout_height="56dp"
             android:layout_marginTop="16dp"
             android:text="@string/you_get_irritated_and_angry_easily_and_have_trouble_relaxing"
@@ -409,7 +409,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout25"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -427,7 +427,7 @@
 
         <TextView
             android:id="@+id/textView71"
-            android:layout_width="410dp"
+            android:layout_width="390dp"
             android:layout_height="56dp"
             android:layout_marginTop="16dp"
             android:text="@string/you_frequently_worry_too_much_about_different_little_things"
@@ -439,7 +439,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout26"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -457,7 +457,7 @@
 
         <TextView
             android:id="@+id/textView72"
-            android:layout_width="397dp"
+            android:layout_width="390dp"
             android:layout_height="33dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_you_when_you_are_nauseous"
@@ -469,7 +469,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout27"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -487,8 +487,8 @@
 
         <TextView
             android:id="@+id/textView73"
-            android:layout_width="397dp"
-            android:layout_height="33dp"
+            android:layout_width="390dp"
+            android:layout_height="53dp"
             android:layout_marginTop="16dp"
             android:text="@string/other_people_notice_you_when_you_feel_shaky"
             android:textAlignment="center"
@@ -499,7 +499,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout28"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -517,7 +517,7 @@
 
         <TextView
             android:id="@+id/textView74"
-            android:layout_width="397dp"
+            android:layout_width="390dp"
             android:layout_height="33dp"
             android:layout_marginTop="16dp"
             android:text="@string/unusual_body_sensations_scare_you"
@@ -529,7 +529,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout29"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -547,7 +547,7 @@
 
         <TextView
             android:id="@+id/textView75"
-            android:layout_width="397dp"
+            android:layout_width="390dp"
             android:layout_height="33dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_you_when_you_are_nervous"
@@ -559,7 +559,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout30"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -576,7 +576,7 @@
 
         <TextView
             android:id="@+id/textView76"
-            android:layout_width="396dp"
+            android:layout_width="390dp"
             android:layout_height="52dp"
             android:layout_marginTop="16dp"
             android:text="@string/it_scares_you_when_you_become_short_of_breath"
@@ -588,7 +588,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout31"
-            android:layout_width="416dp"
+            android:layout_width="390dp"
             android:layout_height="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

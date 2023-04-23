@@ -58,7 +58,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="77dp"
+        android:layout_width="70dp"
         android:layout_height="75dp"
         android:background="#1C4A46"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,15 +80,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="406dp"
+        android:layout_width="390dp"
         android:layout_height="53dp"
+        android:layout_marginTop="8dp"
         android:text="@string/physical_health2"
         android:textAlignment="center"
         android:textColor="#43A047"
         android:textSize="38sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="TextSizeCheck" />
@@ -96,8 +97,8 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="360dp"
-        android:layout_height="414dp"
-        android:layout_marginTop="4dp"
+        android:layout_height="544dp"
+        android:layout_marginTop="10dp"
         android:background="#70CDF6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +119,7 @@
         <TextView
             android:id="@+id/textView38"
             android:layout_width="match_parent"
-            android:layout_height="39dp"
+            android:layout_height="71dp"
             android:layout_below="@+id/textView37"
             android:layout_marginTop="0dp"
             android:background="#70CDF6"
@@ -145,7 +146,7 @@
         <TextView
             android:id="@+id/textView40"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
+            android:layout_height="71dp"
             android:layout_below="@+id/textView39"
             android:layout_marginTop="0dp"
             android:background="#70CDF6"
@@ -172,7 +173,7 @@
         <TextView
             android:id="@+id/textView42"
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="51dp"
             android:layout_below="@+id/textView41"
             android:layout_marginTop="0dp"
             android:background="#70CDF6"
@@ -199,7 +200,7 @@
         <TextView
             android:id="@+id/textView45"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="71dp"
             android:layout_below="@+id/textView44"
             android:layout_marginTop="0dp"
             android:background="#70CDF6"
@@ -226,7 +227,7 @@
         <TextView
             android:id="@+id/textView47"
             android:layout_width="match_parent"
-            android:layout_height="66dp"
+            android:layout_height="86dp"
             android:layout_below="@+id/textView46"
             android:layout_marginTop="0dp"
             android:background="#70CDF6"
@@ -239,10 +240,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="409dp"
+        android:layout_width="390dp"
         android:layout_height="48dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView">
 
@@ -253,8 +255,10 @@
             android:text="@string/show_diet_plan"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

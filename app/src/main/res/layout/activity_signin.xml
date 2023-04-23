@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="407dp"
-        android:layout_height="70dp"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,15 +36,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="403dp"
+        android:layout_width="390dp"
         android:layout_height="39dp"
+        android:layout_marginTop="16dp"
         android:text="@string/please_register"
         android:textAlignment="center"
         android:textColor="#43A047"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="TextSizeCheck" />
@@ -136,7 +137,7 @@
         android:layout_width="98dp"
         android:layout_height="46dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="44dp"
         android:text="@string/name"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -235,6 +236,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textInputLayout6"
         app:layout_constraintStart_toEndOf="@+id/textView13"
         app:layout_constraintTop_toTopOf="@+id/textView13"
+        app:passwordToggleEnabled="true"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         app:hintEnabled="false">
 
@@ -291,7 +293,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_weight_in_kg"
-            android:inputType="text"
+            android:inputType="number|text"
+            android:textColorHint="#616161"
             tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
